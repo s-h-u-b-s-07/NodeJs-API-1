@@ -1,0 +1,16 @@
+#!/bin/bash
+sudo apt-get -y update
+
+# INSTALL MONGODB - ONLY FOR UBUNTU
+sudo apt install mongodb
+
+# INSTALL NODEJS - ONLY FOR UBUNTU
+sudo apt install nodejs -y
+
+# INSTALL NPM & PM2 - ONLY FOR UBUNTU
+sudo apt install npm -y
+sudo npm install pm2@latest -g
+
+sudo npm install
+sudo npm start
+
